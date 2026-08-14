@@ -143,3 +143,12 @@ footer {
     font-size: 0.9rem;
     margin-top: auto;
 }
+
+.imagem-artigo {
+    width: 100%;             /* Ocupa 100% da largura do contêiner */
+    max-width: 600px;        /* Define um limite máximo elegante */
+    height: auto;            /* Mantém a proporção original para não distorcer */
+    display: block;          /* Facilita a centralização */
+    margin: 20px auto;       /* Espaçamento em cima/baixo e centraliza */
+    border-radius: 8px;      /* Bordas arredondadas (opcional) */
+}
