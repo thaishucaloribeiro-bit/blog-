@@ -70,6 +70,17 @@ main {
     color: #555;
 }
 
+/* Imagem do Artigo */
+.imagem-artigo {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra leve adicionada para combinar com o layout */
+}
+
 .conteudo ul {
     list-style-type: none;
     margin-bottom: 2rem;
@@ -106,7 +117,7 @@ main {
     transition: fill 0.25s ease, transform 0.25s ease;
 }
 
-/* Efeito ao passar o rato (Hover) */
+/* Efeito ao passar o mouse (Hover) */
 .btn-curtir:hover {
     background-color: #ffe6e6;
     border-color: #ff4d4d;
@@ -142,13 +153,4 @@ footer {
     padding: 1.2rem;
     font-size: 0.9rem;
     margin-top: auto;
-}
-
-.imagem-artigo {
-    width: 100%;             /* Ocupa 100% da largura do contêiner */
-    max-width: 600px;        /* Define um limite máximo elegante */
-    height: auto;            /* Mantém a proporção original para não distorcer */
-    display: block;          /* Facilita a centralização */
-    margin: 20px auto;       /* Espaçamento em cima/baixo e centraliza */
-    border-radius: 8px;      /* Bordas arredondadas (opcional) */
 }
